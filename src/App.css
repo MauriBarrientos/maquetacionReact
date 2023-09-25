@@ -1,0 +1,86 @@
+#root{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+#root > header{
+  background-color:  #404040;
+  padding: 15px;
+  font-size: 18px;
+  font-family: 'Lexend Zetta', sans-serif;
+}
+
+#root > main{
+  background-color:  #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+
+#root > .letras{
+  color: #202020;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+button{
+  background-color: #F2F56A;
+  border-radius: 15px;
+  width: auto;
+  font-size: 22px;
+}
+@media(max-width: 748px){
+  button{
+      width: 60%;
+  }
+}
+
+#root > .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#root > .recuadro {
+  width: 100%;
+  padding: 20px;
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+#root > .swiper-container {
+  width: 100%;
+}
+
+#root > .swiper-slide {
+  text-align: center;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+a{
+  text-decoration: none;
+}
+
+#root > #remisesnorte {
+  height: 30vh;
+}
+
+#root > #libertad{
+  height: 250px;
+}
+
+#root > #formulario{
+  width: 60%;
+  margin: 0 auto;
+}
+
+#root > .form-floating{
+  margin-bottom: 2%;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+}
